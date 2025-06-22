@@ -6,7 +6,7 @@
 **Level**: Beginner  
 **Database**: `sql_project_1`
 
-This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
+This is a simple SQL project I did to practice my SQL skills as a beginner. I worked with a retail sales dataset and tried to answer some business-related questions using SQL queries. This project helped me understand how to create databases and tables, clean data, and write useful queries to analyze and get insights from the data. It’s a small but complete project to showcase what I’ve learned so far.
 
 ## Objectives
 
@@ -191,22 +191,25 @@ SELECT *,
  GROUP BY shift
 ```
 
-## Findings
+## Key Learnings
+1. Got hands-on experience with creating databases and tables in SQL.
+2. Practiced basic data cleaning using NULL checks and DELETE.
+3. Learned how to use GROUP BY, CASE, CTE, and RANK() in SQL.
+4. Understood how SQL can help answer real business questions using data.
 
-- **Customer Demographics**: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
-- **High-Value Transactions**: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
-- **Sales Trends**: Monthly analysis shows variations in sales, helping identify peak seasons.
-- **Customer Insights**: The analysis identifies the top-spending customers and the most popular product categories.
+## Reports & Insights
 
-## Reports
-
-- **Sales Summary**: A detailed report summarizing total sales, customer demographics, and category performance.
-- **Trend Analysis**: Insights into sales trends across different months and shifts.
-- **Customer Insights**: Reports on top customers and unique customer counts per category.
+**Top Product Categories:** "Clothing" and "Beauty" are among the most frequently purchased categories.
+**High-Value Transactions:** Several transactions had a total sale amount above 1000, indicating premium purchases.
+**Monthly Sales Trends:** Some months showed higher average sales, suggesting seasonal buying patterns.
+**Customer Loyalty:** The top 5 customers contributed significantly to total sales.
+**Unique Customers per Category:** Each product category attracted a distinct set of customers.
+**Shift-wise Sales:** Evening shift (after 5 PM) had the most number of transactions, followed by afternoon and morning.
 
 ## Conclusion
 
-This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+This project helped me practice and apply SQL skills in a real-world scenario. I learned how to create databases, clean data, and write queries to analyze retail sales. By answering different business questions, I understood how data can reveal important insights like customer behavior, sales trends, and product performance.
+Overall, this was a great learning experience and gave me more confidence in using SQL for data analysis. I look forward to exploring more datasets and improving my skills further!
 
 ## How to Use
 
@@ -215,6 +218,5 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 3. **Run the Queries**: Use the SQL queries provided in the `analysis_queries.sql` file to perform your analysis.
 4. **Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional business questions.
 
-## Author - JATIN GOYAL
-
-This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
+## About Me — Jatin Goyal
+I’m learning data analysis and building projects to improve my SQL and analytics skills. This project is part of my learning journey. If you're also learning or have any suggestions for improvement, feel free to connect!
