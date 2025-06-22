@@ -200,15 +200,21 @@ SELECT *,
 ## Reports & Insights
 
 **Top Product Categories:** "Clothing" and "Beauty" are among the most frequently purchased categories.
+
 **High-Value Transactions:** Several transactions had a total sale amount above 1000, indicating premium purchases.
+
 **Monthly Sales Trends:** Some months showed higher average sales, suggesting seasonal buying patterns.
+
 **Customer Loyalty:** The top 5 customers contributed significantly to total sales.
+
 **Unique Customers per Category:** Each product category attracted a distinct set of customers.
+
 **Shift-wise Sales:** Evening shift (after 5 PM) had the most number of transactions, followed by afternoon and morning.
 
 ## Conclusion
 
 This project helped me practice and apply SQL skills in a real-world scenario. I learned how to create databases, clean data, and write queries to analyze retail sales. By answering different business questions, I understood how data can reveal important insights like customer behavior, sales trends, and product performance.
+
 Overall, this was a great learning experience and gave me more confidence in using SQL for data analysis. I look forward to exploring more datasets and improving my skills further!
 
 ## How to Use
